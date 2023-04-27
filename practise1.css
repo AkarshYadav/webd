@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+   
+}
+
+body{
+
+    background-image: url(/volleyball2.jpg);
+   background-size: cover;
+   background-attachment: scroll;
+}
+header{
+    border: 20px ;
+    align-items: center;
+   padding: 50PX;
+   background-color:rgba(251, 242, 242, 0);
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+   
+  }
+.logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 100px;
+    margin-right: 10px;
+   mix-blend-mode: screen;
+  }
+nav {
+    position: absolute;
+    top: 5;
+    right: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+section{
+    border: solid white;
+    background-image: url(/volleyball1.jpg) ;
+   
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+   
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+section>h1{
+    font-size: 50px;
+    color: aliceblue;
+    
+
+}
+section>img{
+   width: 500px;
+}
+
+footer{
+
+    height: 50px;
+    /* width: 1000px; */
+    margin: auto;
+   background-color: white;
+   text-align: center;
+   padding: 50px 0px;
+}
+footer>a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
